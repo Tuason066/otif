@@ -1,8 +1,10 @@
 /* AUTHOR: JEFFREY TUASON */
-/* ################### LANGAUGE ################### */
+/* ################### SPINNER ################### */
+const spinner = document.querySelector('.loading-spin');
+window.addEventListener('load', () => spinner.classList.add('d-none'));
 
 /* ################### NAVBAR ################### */
-const navbar = document.querySelector('.navbar');
+const navbar = document.querySelector('.navbar-container');
 const navList = document.querySelector('#navbarSupportedContent');
 const navBtn = document.querySelector('.burger-btn');
 const backToTop = document.querySelector('#scroll-to-top');
@@ -26,6 +28,17 @@ window.addEventListener('scroll', () => {
     // back to top
     scrollHeight > 500 ? backToTop.classList.remove('d-none') : backToTop.classList.add('d-none');
 })
+
+
+/* ################### FORM ################### */
+const form = document.querySelector('form');
+form.addEventListener('submit', e => {
+    e.preventDefault();
+    const input = e.currentTarget.querySelector('input');
+    input.value && window.location.replace(`${window.location.origin}${window.location.pathname}#`);
+    input.value = '';
+    
+});
 
 /* ################### DATE ################### */
 document.getElementById('f-year').textContent = new Date().getFullYear();

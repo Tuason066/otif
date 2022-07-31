@@ -11,18 +11,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous" defer></script>
     <!-- my script -->
     <script src="./script.js" defer></script>
-    <script src="./languages/page1-language.js" defer></script>
+    <script src="./languages/page2-language.js" defer></script>
     <!-- AUTHOR: JEFFREY TUASON -->
 </head>
 <body class="text-white fs-6">
 
-    <div style="z-index: 9999;background: linear-gradient(180deg, #4C38EE 0%, #543DFF 100%);" class="loading-spin min-vh-100 min-vw-100 position-fixed d-flex justify-content-center align-items-center">
-        <div class="spinner-border text-white" role="status">
-            <span class="visually-hidden">Loading...</span>
-        </div>
+<div style="z-index: 9999;background: linear-gradient(180deg, #4C38EE 0%, #543DFF 100%);" class="loading-spin min-vh-100 min-vw-100 position-fixed d-flex justify-content-center align-items-center">
+    <div class="spinner-border text-white" role="status">
+        <span class="visually-hidden">Loading...</span>
     </div>
+</div>
 
-    <div class="whole-container">
+<div class="whole-container">
 
         <!-- ####### SCROLL TO TOP ####### -->
         <a id="scroll-to-top" class="scroll-to-top d-none" href="#">
@@ -30,7 +30,7 @@
         </a>
 
         <!-- ####### MAIN ####### -->
-        <section class="main-container">
+        <section class="main-container-p2">
             <div>
                 <!-- ####### OPTIONS ####### -->
                 <div style="background: linear-gradient(180deg, #4C38EE 0%, #543DFF 100%);">
@@ -125,92 +125,129 @@
                         </div>
                     </nav>
                 </div>
-
                 <!-- *** main *** -->
-                <main class="row gx-0 justify-content-center align-items-md-center align-items-lg-start mt-lg-5 mt-md-3 pb-4 pt-md-4 pt-lg-0">
+                <main class="row gx-0 justify-content-center align-items-lg-center align-items-lg-start mt-lg-5 mt-lg-3 pb-4 pt-lg-4 pt-lg-0">
                     <!-- hero -->
-                    <div class="col-8 col-md-5 order-md-2">
-                        <div class="scale-main-hero d-flex justify-content-center align-items-center">
-                            <img class="img-fluid" src="./assets/laptop-analytics.svg" alt="laptop">
+                    <div class="col-8 col-lg-6 order-lg-2 pt-4 pb-5 ps-lg-5">
+                        <div class="d-flex justify-content-center align-items-center ps-lg-5">
+                            <img class="img-fluid" src="./assets/logistics-truck-boxes.svg" alt="worker driving the truck with the boxes of orders">
                         </div>
                     </div>
                     <!-- content -->
-                    <article class="col-11 col-md-5 order-md-1 pb-5 pb-lg-0 text-center text-md-start">
+                    <article class="col-11 col-lg-4 order-lg-1 pb-5 pb-lg-5 text-center text-lg-start">
                         <div>
                             <img src="./assets/box-icon.svg" alt="otif platform icon">
                         </div>
-                        <h1 id="optimize" class="my-3 my-lg-4 text-uppercase">Optimization of Global Supply Chain</h1>
-                        <p id="optimizeP1" class="mb-4">OTIF is the next dimension of consolidation, orchestration, and optimization of the global supply chain networks, integrating different production enterprises and logistics providers for your convenience.</p>
-                        <button id="optimizeBtn" class="white-btn text-uppercase shadow-sm fs-5 px-5" type="button">start</button>
+                        <h1 id="ship" class="my-3 my-lg-4 text-uppercase">Ship any amount anywhere</h1>
+                        <p id="shipP1">When it comes to optimizing less-than-truckload freight transportation, we got you.</p>
+                        <p id="shipP2" class="mb-5">We use our economies of scale, for you to get the best prices and the best experience.  Your products must get through.</p>
+                        <button id="shipBtn" class="mt-3 white-btn text-uppercase shadow-sm fs-5 px-5" type="button">get started</button>
                     </article>
                 </main>
             </div>
         </section>
 
         <!-- ####### GRID ITEMS ####### -->
-        <section class="py-5">
-            <!-- grid item -->
-            <article class="gap-md-5 row gx-0 justify-content-center align-items-md-center">
-                <!-- hero -->
-                <div class="col-8 col-md-4 pt-2 order-1 order-md-2  pb-5 text-center order-1 order-md-2">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img loading="lazy" class="img-fluid" src="./assets/data-driven.svg" alt="IT person facing to the computer monitor">
-                    </div>
-                </div>
-                <!-- description -->
-                <div class="col-11 col-md-5 order-2 order-md-1 text-center text-md-start">
-                    <div>
-                        <img loading="lazy" class="img-fluid" src="./assets/horizontal-line-circle-end.svg" alt="line icon">
-                    </div>
-                    <h2 id="dataDriven" class="mt-2 mb-3 text-primary">Data Driven</h2>
-                    <p id="dataDrivenP1" class="text-black mb-0">We decided to use technology in logistics to habilitate transparent, data-driven, and easy decisions for your business. Our technology is your business’ competitive advantage.</p>
-                    <p id="dataDrivenP2" class="text-black">This brings decisions into the user’s hands. Users choose to their company’s convenience the times, prices, and modalities that they need and want.</p>
-                </div>
-            </article>
-            <!-- end of grid item -->
+        <section class="py-5 row justify-content-center">
+            <div class="col-11 col-md-10">
 
-            <!-- grid item -->
-            <article class="gap-md-5 row gx-0 justify-content-center align-items-md-center">
-                <!-- hero -->
-                <div class="col-8 col-md-4 py-5 order-1 text-center">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img loading="lazy" class="img-fluid" src="./assets/manufacuring-process.svg" alt="workers packing the orders">
+                <!-- grid item -->
+                <article class="row gx-0 justify-content-center justify-content-md-between align-items-md-center mb-3">
+                    <!-- hero -->
+                    <div class="col-10 col-md-5 pt-2  pb-5 text-center order-1 order-md-2 d-flex justify-content-center">
+                        <div>
+                            <img loading="lazy" class="img-fluid" src="./assets/trucking.svg" alt="worker trucking the orders shipping">
+                        </div>
                     </div>
-                </div>
-                <!-- description -->
-                <div class="col-11 col-md-5 order-2 text-center text-md-start">
-                    <div>
-                        <img loading="lazy" class="img-fluid" src="./assets/horizontal-line-circle-end.svg" alt="line icon">
+                    <!-- description -->
+                    <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start position-relative">
+                        <div class="triangle d-none">
+                            <img loading="lazy" class="img-fluid" src="./assets/triangle.svg" alt="triangle icon">
+                        </div>
+                        <h2 id="worldwide" class="mt-2 mb-3 text-primary">Worldwide Consolidation Network</h2>
+                        <p id="worldwideP1" class="text-black mb-0">Load your key SKUs onto OTIF’s worldwide consolidation network where technology adds visibility and control to every handoff.</p>
                     </div>
-                    <h2 id="efficiency" class="mt-2 mb-3 text-primary">Efficiency and Transparency</h2>
-                    <p id="efficiencyP1" class="text-black">OTIF is a platform that can smoothly and flexibly integrate all parties across multiple supply chains, enabling the formation of modular services for your needs, maximizing your efficiency, and reducing your costs.</p>
-                </div>
-            </article>
-            <!-- end of grid item -->
+                </article>
+                <!-- end of grid item -->
 
-            <!-- grid item -->
-            <article class="gap-md-5 row gx-0 justify-content-center align-items-md-center">
-                <!-- hero -->
-                <div class="col-8 col-md-4 pt-2 pb-5 text-center order-1 order-md-2">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img loading="lazy" class="img-fluid" src="./assets/delivered.svg" alt="delivery man handed the item to the customer">
+                <!-- grid item -->
+                <article class="row gx-0 justify-content-center justify-content-md-between align-items-md-center mb-3">
+                    <!-- hero -->
+                    <div class="col-10 col-md-5 pt-2  pb-5 text-center order-1 order-md-2 d-flex justify-content-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img loading="lazy" class="img-fluid" src="./assets/barcode.svg" alt="worker scanning barcodes">
+                        </div>
                     </div>
-                </div>
-                <!-- description -->
-                <div class="col-11 col-md-5 order-2 order-md-1 text-center text-md-start">
-                    <div>
-                        <img loading="lazy" class="img-fluid" src="./assets/horizontal-line-circle-end.svg" alt="line icon">
+                    <!-- description -->
+                    <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start position-relative">
+                        <div class="triangle  d-none d-lg-block">
+                            <img loading="lazy" class="img-fluid" src="./assets/triangle.svg" alt="triangle icon">
+                        </div>
+                        <h2 id="space" class="mt-2 mb-3 mb-lg-5 text-primary">Only Pay for The Space You Use</h2>
+                        <p id="spaceP1" class="text-black">Don’t wait to fill a full container. Save time and money now. Only pay for the space you need and never lose track of your cargo thanks to our extensive less-than-truckload (LTL) network managed by OTIF.</p>
                     </div>
-                    <h2 id="ontime" class="mt-2 mb-3 text-primary">On-Time In Full</h2>
-                    <p id="ontimeP1" class="text-black mb-0">Do you ever wish there was a platform where you could search, compare, and buy the best, most reliable logistical bookings?</p>
-                    <p id="ontimeP2" class="text-black mb-0">Now there is, OTIF.</p>
-                    <p id="ontimeP3" class="text-black mb-0">OTIF: ON-TIME IN FULL</p>
-                    <p id="ontimeP4" class="text-black mb-0">Our team is your team.</p>
-                    <p id="ontimeP5" class="text-black mb-0">Our technology is your technology to use as you please when you please.</p>
-                    <p id="ontimeP6" class="text-black">The power of your business.</p>
-                </div>
-            </article>
-            <!-- end of grid item -->
+                </article>
+                <!-- end of grid item -->
+
+                <!-- grid item -->
+                <article class="row gx-0 justify-content-center justify-content-md-between align-items-md-center mb-3">
+                    <!-- hero -->
+                    <div class="col-10 col-md-5 pt-2  pb-5 text-center d-flex justify-content-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img loading="lazy" class="img-fluid" src="./assets/secure.svg" alt="otif manager and customer shaked hands">
+                        </div>
+                    </div>
+                    <!-- description -->
+                    <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start position-relative">
+                        <div class="triangle  d-none d-lg-block">
+                            <img loading="lazy" class="img-fluid" src="./assets/triangle.svg" alt="triangle icon">
+                        </div>
+                        <h2 id="reliable" class="mt-2 mb-3 mb-lg-5 text-primary">Secure and Reliable</h2>
+                        <p id="reliableP1" class="text-black mb-0">With thousand of certified suppliers on the OTIF Platform, you can find a reliable LTL option that will meet your budget, schedule, and expectations.</p>
+                    </div>
+                </article>
+                <!-- end of grid item -->
+
+                <!-- grid item -->
+                <article class="row gx-0 justify-content-center justify-content-md-between align-items-md-center mb-3">
+                    <!-- hero -->
+                    <div class="col-10 col-md-5 pt-2  pb-5 text-center order-1 order-md-2 d-flex justify-content-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img loading="lazy" class="img-fluid" src="./assets/fast.svg" alt="delivery man driving car to deliver orders">
+                        </div>
+                    </div>
+                    <!-- description -->
+                    <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start position-relative">
+                        <div class="triangle  d-none d-lg-block">
+                            <img loading="lazy" class="img-fluid" src="./assets/triangle.svg" alt="triangle icon">
+                        </div>
+                        <h2 id="fast" class="mt-2 mb-3 mb-lg-5 text-primary">Fast</h2>
+                        <p id="fastP1" class="text-black mb-0">Book with fewer worries. Consolidated shipments managed by OTIF are rarely subject to demurrage or additional days.</p>
+                    </div>
+                    
+                </article>
+                <!-- end of grid item -->
+
+                <!-- grid item -->
+                <article class="row gx-0 justify-content-center justify-content-md-between align-items-md-center mb-3">
+                    <!-- hero -->
+                    <div class="col-10 col-md-5 pt-2  pb-5 text-center d-flex justify-content-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img loading="lazy" class="img-fluid" src="./assets/personal-settings.svg" alt="model besides a big mobile phone">
+                        </div>
+                    </div>
+                    <!-- description -->
+                    <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start position-relative">
+                        <div class="triangle  d-none d-lg-block">
+                            <img loading="lazy" class="img-fluid" src="./assets/triangle.svg" alt="triangle icon">
+                        </div>
+                        <h2 id="variety" class="mt-2 mb-3 mb-lg-5 text-primary">Huge Variety</h2>
+                        <p id="varietyP1" class="text-black">More options make OTIF LTL the right choice for companies of all sizes. With access to more carriers, you can pick the service that’s best for you. Our warehouses, technology, and carrier relationships create higher reliability that will give you leverage in your operation.</p>
+                    </div>
+                </article>
+                <!-- end of grid item -->
+            </div>
+
         </section>
 
         <!-- ####### QUERIES ####### -->
@@ -228,7 +265,6 @@
 
         <!-- ####### FOOTER ####### -->
         <footer>
-    
             <div class="row gx-0 justify-content-center">
                 <div class="col-11 d-md-flex justify-content-md-center d-lg-block col-lg-4 mt-5">
                     <div class="brand-logo">
@@ -269,7 +305,7 @@
                         <li><a id="shippingLink12" class="f-link" href="">Packages in Mexico</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-11 col-md-3 col-lg-2 mb-4 mb-lg-0">
                     <h6 id="international" class="text-primary mb-3">International Shipping</h6>
                     <ul style="list-style: none;" class="p-0">
@@ -278,7 +314,7 @@
                         <li><a id="internationalLink3" class="f-link" href="">Secure shipments</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-11 col-md-5 col-lg-2 mb-4 mb-lg-0">
                     <h6 id="parcels" class="text-primary mb-3">Parcels</h6>
                     <ul style="list-style: none;" class="p-0">
@@ -292,7 +328,7 @@
                         <li><a id="parcelsLink8" class="f-link" href="">DHL</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-11 col-md-5 col-lg-3 mb-4 mb-lg-0">
                     <h6 id="subscribe" class="text-primary mb-3">Subscribe to our newsletter</h6>
                     <form class="input-group mb-3">
@@ -300,9 +336,9 @@
                         <button id="subscribeBtn" class="btn btn-primary f-link text-white" type="submit" id="user-email">Subscribe</button>
                     </form>
                 </div>
-    
+
             </div>
-    
+
             <div class="border border-top py-2 py-md-3">
                 <div class="row gx-0 justify-content-center text-center">
                     <div class="col-11 col-lg-4 text-primary"><small id="footer1">Copyright &copy; <span id="f-year"></span>. All rights reserved</small></div>

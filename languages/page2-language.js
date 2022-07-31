@@ -22,28 +22,32 @@ const language = {
         hired9: "Hire me",
         hired10: "Hire me",
 
-        optimize: "Optimization of Global Supply Chain",
-        optimizeP1: "OTIF is the next dimension of consolidation, orchestration, and optimization of the global supply chain networks, integrating different production enterprises and logistics providers for your convenience.",
-        optimizeBtn: "start",
+        // main
+        ship: "Ship any amount anywhere",
+        shipP1: "When it comes to optimizing less-than-truckload freight transportation, we got you.",
+        shipP2: "We use our economies of scale, for you to get the best prices and the best experience.  Your products must get through.",
+        shipBtn: "get started",
 
         // grid item 1
-        dataDriven: "Data Driven",
-        dataDrivenP1: "We decided to use technology in logistics to habilitate transparent, data-driven, and easy decisions for your business. Our technology is your business’ competitive advantage.",
-        dataDrivenP2: "This brings decisions into the user’s hands. Users choose to their company’s convenience the times, prices, and modalities that they need and want.",
+        worldwide: "Worldwide Consolidation Network",
+        worldwideP1: "Load your key SKUs onto OTIF’s worldwide consolidation network where technology adds visibility and control to every handoff.",
 
         // grid item 2
-        efficiency: "Efficiency and Transparency",
-        efficiencyP1: "OTIF is a platform that can smoothly and flexibly integrate all parties across multiple supply chains, enabling the formation of modular services for your needs, maximizing your efficiency, and reducing your costs.",
+        space: "Only Pay for The Space You Use",
+        spaceP1: "Don’t wait to fill a full container. Save time and money now. Only pay for the space you need and never lose track of your cargo thanks to our extensive less-than-truckload (LTL) network managed by OTIF.",
         
         // grid item 3
-        ontime: "On-Time In Full",
-        ontimeP1: "Do you ever wish there was a platform where you could search, compare, and buy the best, most reliable logistical bookings?",
-        ontimeP2: "Now there is, OTIF.",
-        ontimeP3: "OTIF: ON-TIME IN FULL",
-        ontimeP4: "Our team is your team.",
-        ontimeP5: "Our technology is your technology to use as you please when you please.",
-        ontimeP6: "The power of your business.",
+        reliable: "Secure and Reliable",
+        reliableP1: "With thousand of certified suppliers on the OTIF Platform, you can find a reliable LTL option that will meet your budget, schedule, and expectations.",       
 
+        // grid item 4
+        fast: "Fast",
+        fastP1: "Book with fewer worries. Consolidated shipments managed by OTIF are rarely subject to demurrage or additional days.",
+
+        // grid item 5
+        variety: "Huge Variety",
+        varietyP1: "More options make OTIF LTL the right choice for companies of all sizes. With access to more carriers, you can pick the service that’s best for you. Our warehouses, technology, and carrier relationships create higher reliability that will give you leverage in your operation.",
+        
         // Queries
         queries: "If you Have any Questions Contact Us",
         queriesP1: "OTIF bring together all the packages in mexico and the world. otif Products facilitate logistics for your company that operates on the internet or in person.Our services includes",
@@ -114,27 +118,32 @@ const language = {
         hired9: "I-hire mo ako",
         hired10: "I-hire mo ako",
 
-        optimize: "Pag-optimize ng Global Supply Chain",
-        optimizeP1: "Ang OTIF ay ang susunod na dimensyon ng pagsasama-sama, orkestrasyon, at pag-optimize ng mga pandaigdigang network ng supply chain, pagsasama-sama ng iba't ibang mga enterprise ng produksyon at mga provider ng logistik para sa iyong kaginhawahan.",
-        optimizeBtn: "simulan",
+        // main
+        ship: "Ipadala ang anumang halaga kahit saan",
+        shipP1: "Pagdating sa pag-optimize ng mas mababa sa trak na transportasyong kargamento, nakuha ka namin.",
+        shipP2: "Ginagamit namin ang aming economies of scale, para makuha mo ang pinakamahusay na mga presyo at ang pinakamahusay na karanasan. Dapat makalusot ang iyong mga produkto.",
+        shipBtn: "Simulan",
 
-        // grid item 2
-        dataDriven: "Hinihikayat ng Data",
-        dataDrivenP1: "Napagpasyahan naming gumamit ng teknolohiya sa logistik upang maging malinaw, batay sa data, at madaling mga desisyon para sa iyong negosyo. Ang aming teknolohiya ang competitive advantage ng iyong negosyo.",
-        dataDrivenP2: "Dinadala nito ang mga desisyon sa mga kamay ng gumagamit. Pinipili ng mga user sa kaginhawahan ng kanilang kumpanya ang mga oras, presyo, at modalidad na kailangan at gusto nila.",
+        // grid item 1
+        worldwide: "Worldwide Consolidation Network",
+        worldwideP1: "I-load ang iyong mga pangunahing SKU sa pandaigdigang network ng konsolidasyon ng OTIF kung saan ang teknolohiya ay nagdaragdag ng visibility at kontrol sa bawat handoff.",
         
         // grid item 2
-        efficiency: "Kahusayan at Transparency",
-        efficiencyP1: "Ang OTIF ay isang platform na maaaring maayos at may kakayahang umangkop na isama ang lahat ng partido sa maraming supply chain, na nagbibigay-daan sa pagbuo ng mga modular na serbisyo para sa iyong mga pangangailangan, pag-maximize ng iyong kahusayan, at pagbabawas ng iyong mga gastos.",
-        // grid item 3
-        ontime: "Nasa Oras sa Buong",
-        ontimeP1: "Nais mo bang magkaroon ng isang platform kung saan maaari kang maghanap, maghambing, at bumili ng pinakamahusay, pinaka-maaasahang logistical booking?",
-        ontimeP2: "Ngayon meron, OTIF.",
-        ontimeP3: "OTIF : ON-TIME NA BUO",
-        ontimeP4: "Ang aming koponan ay ang iyong koponan.",
-        ontimeP5: "Ang aming teknolohiya ay ang iyong teknolohiya na gagamitin ayon sa gusto mo kapag gusto mo.",
-        ontimeP6: "Ang lakas ng negosyo mo.",
+        space: "Magbayad Lang para sa Space na Ginamit Mo",
+        spaceP1: "Huwag maghintay na punan ang isang buong lalagyan. Makatipid ng oras at pera ngayon. Magbayad lamang para sa espasyong kailangan mo at hindi kailanman mawawala ang iyong kargamento salamat sa aming malawak na less-than-truckload (LTL) network na pinamamahalaan ng OTIF.",
 
+        // grid item 3
+        reliable: "Secure at Maaasahan",
+        reliableP1: "Sa libu-libong sertipikadong supplier sa OTIF Platform, makakahanap ka ng maaasahang opsyon sa LTL na makakatugon sa iyong badyet, iskedyul, at mga inaasahan.",
+
+        // grid item 4
+        fast: "Mabilis",
+        fastP1: "Mag-book na may kaunting mga alalahanin. Ang pinagsama-samang mga pagpapadala na pinamamahalaan ng OTIF ay bihirang napapailalim sa demurrage o karagdagang mga araw.",
+
+        // grid item 5
+        variety: "Malaking Iba't-ibang",
+        varietyP1: "Higit pang mga opsyon ang ginagawang OTIF LTL ang tamang pagpipilian para sa mga kumpanya sa lahat ng laki. Sa pamamagitan ng access sa higit pang mga carrier, maaari mong piliin ang serbisyong pinakamainam para sa iyo. Ang aming mga bodega, teknolohiya, at mga relasyon sa carrier ay lumilikha ng mas mataas na pagiging maaasahan na magbibigay sa iyo ng lakas sa iyong operasyon.",
+        
         // Queries
         queries: "Kung mayroon kang anumang mga Tanong Makipag-ugnayan sa Amin",
         queriesP1: "Pinagsama-sama ng OTIF ang lahat ng mga pakete sa mexico at sa mundo. Ang mga otif Products ay nagpapadali ng logistik para sa iyong kumpanya na nagpapatakbo sa internet o nang personal. Kasama sa aming mga serbisyo",
@@ -210,27 +219,30 @@ const translate = (lang) => {
     hired9.textContent = language[lang].hired9;
     hired10.textContent = language[lang].hired10;
 
-    optimize.textContent = language[lang].optimize;
-    optimizeP1.textContent = language[lang].optimizeP1;
-    optimizeBtn.textContent = language[lang].optimizeBtn;
+    ship.textContent = language[lang].ship;
+    shipP1.textContent = language[lang].shipP1;
+    shipP2.textContent = language[lang].shipP2;
+    shipBtn.textContent = language[lang].shipBtn;
     
     // grid item 1
-    dataDriven.textContent = language[lang].dataDriven;
-    dataDrivenP1.textContent = language[lang].dataDrivenP1;
-    dataDrivenP2.textContent = language[lang].dataDrivenP2;
+    worldwide.textContent = language[lang].worldwide;
+    worldwideP1.textContent = language[lang].worldwideP1;
 
     // grid item 2
-    efficiency.textContent = language[lang].efficiency;
-    efficiencyP1.textContent = language[lang].efficiencyP1;
+    space.textContent = language[lang].space;
+    spaceP1.textContent = language[lang].spaceP1;
     
     // grid item 3
-    ontime.textContent = language[lang].ontime;
-    ontimeP1.textContent = language[lang].ontimeP1;
-    ontimeP2.textContent = language[lang].ontimeP2;
-    ontimeP3.textContent = language[lang].ontimeP3;
-    ontimeP4.textContent = language[lang].ontimeP4;
-    ontimeP5.textContent = language[lang].ontimeP5;
-    ontimeP6.textContent = language[lang].ontimeP6;
+    reliable.textContent = language[lang].reliable;
+    reliableP1.textContent = language[lang].reliableP1;
+    
+    // grid item 4
+    fast.textContent = language[lang].fast;
+    fastP1.textContent = language[lang].fastP1;
+    
+    // grid item 5
+    variety.textContent = language[lang].variety;
+    varietyP1.textContent = language[lang].varietyP1;
 
     // Queries
     queries.textContent = language[lang].queries;

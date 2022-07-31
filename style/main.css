@@ -10826,18 +10826,18 @@ z .placeholder-lg {
 }
 
 .scroll-to-top {
-  width: 1.25rem;
+  width: 2rem;
   position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
+  bottom: 2rem;
+  right: 2rem;
   animation: scrollToTop 4s infinite;
 }
 
 @media (min-width: 768px) {
   .scroll-to-top {
-    width: 2rem;
-    bottom: 2rem;
-    right: 2rem;
+    width: 3rem;
+    bottom: 3rem;
+    right: 3rem;
   }
 }
 /* ####### SCALE ####### */
@@ -10865,24 +10865,26 @@ z .placeholder-lg {
     font-size: 0.875rem;
   }
 }
-/* ####### TEXT SIZE ####### */
-small, .small {
-  font-size: 0.65rem;
+/* ####### BACKGROUND ICONS ####### */
+.triangle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
-@media (min-width: 768px) {
-  small, .small {
-    font-size: 0.75rem;
-  }
-}
 /* ####### CONTAINERS ####### */
 .whole-container {
   max-width: 1440px;
   margin: 0 auto;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .main-container {
+  min-height: 100vh;
+  background: linear-gradient(122.29deg, #4C38EE 40.13%, rgba(76, 56, 238, 0.3) 133.77%);
+}
+
+.main-container-p2 {
   min-height: 100vh;
   background: linear-gradient(122.29deg, #4C38EE 40.13%, rgba(76, 56, 238, 0.3) 133.77%);
 }
@@ -10891,6 +10893,10 @@ small, .small {
   .main-container {
     min-height: 100%;
     max-height: 700px;
+  }
+  .main-container-p2 {
+    min-height: 100%;
+    max-height: 770px;
   }
 }
 /* ####### ANIMATIONS ####### */

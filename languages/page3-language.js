@@ -22,27 +22,26 @@ const language = {
         hired9: "Hire me",
         hired10: "Hire me",
 
-        optimize: "Optimization of Global Supply Chain",
-        optimizeP1: "OTIF is the next dimension of consolidation, orchestration, and optimization of the global supply chain networks, integrating different production enterprises and logistics providers for your convenience.",
-        optimizeBtn: "start",
+        // main
+        platform: "a platform design for shipping products",
+        platformP1: "We bring together all the express shipping companies. OTIF facilitates logistics for your company, either brick, mortar or your ecommerce store.",
+        platformBtn: "get started",
 
         // grid item 1
-        dataDriven: "Data Driven",
-        dataDrivenP1: "We decided to use technology in logistics to habilitate transparent, data-driven, and easy decisions for your business. Our technology is your business’ competitive advantage.",
-        dataDrivenP2: "This brings decisions into the user’s hands. Users choose to their company’s convenience the times, prices, and modalities that they need and want.",
+        automation: "Automation",
+        automationP1: "We optimize and automate your entire shipping process. You do not have to look over your shoulder or facilitate any process in the course of shipping.",
 
         // grid item 2
-        efficiency: "Efficiency and Transparency",
-        efficiencyP1: "OTIF is a platform that can smoothly and flexibly integrate all parties across multiple supply chains, enabling the formation of modular services for your needs, maximizing your efficiency, and reducing your costs.",
+        volume: "Volume",
+        volumeP1: "Regardless of the size, big or very small,  of whatever you are shipping, be it a a small taco, some packages  or an entire  stand we make sure it gets there on time and in full.",
         
         // grid item 3
-        ontime: "On-Time In Full",
-        ontimeP1: "Do you ever wish there was a platform where you could search, compare, and buy the best, most reliable logistical bookings?",
-        ontimeP2: "Now there is, OTIF.",
-        ontimeP3: "OTIF: ON-TIME IN FULL",
-        ontimeP4: "Our team is your team.",
-        ontimeP5: "Our technology is your technology to use as you please when you please.",
-        ontimeP6: "The power of your business.",
+        navigation: "Seamless Navigation",
+        navigationP1: "We service all route and handle all types of navigation, inbound or outbound. Our carriers are sufficent for efficient servicing of the entire globe.",       
+
+        // grid item 4
+        model: "Multiple Business Model",
+        modelP1: "We have prepared packages for all types of busines model; business to business, business to consumer, and consumer to business. We will handle your package either way.",
 
         // Queries
         queries: "If you Have any Questions Contact Us",
@@ -114,26 +113,26 @@ const language = {
         hired9: "I-hire mo ako",
         hired10: "I-hire mo ako",
 
-        optimize: "Pag-optimize ng Global Supply Chain",
-        optimizeP1: "Ang OTIF ay ang susunod na dimensyon ng pagsasama-sama, orkestrasyon, at pag-optimize ng mga pandaigdigang network ng supply chain, pagsasama-sama ng iba't ibang mga enterprise ng produksyon at mga provider ng logistik para sa iyong kaginhawahan.",
-        optimizeBtn: "simulan",
+        // main
+        platform: "isang disenyo ng platform para sa mga produkto sa pagpapadala",
+        platformP1: "Pinagsasama-sama namin ang lahat ng express shipping company. Pinapadali ng OTIF ang logistik para sa iyong kumpanya, alinman sa brick, mortar o iyong ecommerce store.",
+        platformBtn: "Simulan",
+
+        // grid item 1
+        automation: "Automation",
+        automationP1: "Ino-optimize at ino-automate namin ang iyong buong proseso ng pagpapadala. Hindi mo kailangang tumingin sa iyong balikat o padaliin ang anumang proseso sa kurso ng pagpapadala.",
 
         // grid item 2
-        dataDriven: "Hinihikayat ng Data",
-        dataDrivenP1: "Napagpasyahan naming gumamit ng teknolohiya sa logistik upang maging malinaw, batay sa data, at madaling mga desisyon para sa iyong negosyo. Ang aming teknolohiya ang competitive advantage ng iyong negosyo.",
-        dataDrivenP2: "Dinadala nito ang mga desisyon sa mga kamay ng gumagamit. Pinipili ng mga user sa kaginhawahan ng kanilang kumpanya ang mga oras, presyo, at modalidad na kailangan at gusto nila.",
+        volume: "Dami",
+        volumeP1: "Anuman ang laki, malaki o napakaliit, ng anuman ang iyong ipapadala, maging ito ay isang maliit na taco, ilang mga pakete o isang buong stand tinitiyak namin na makakarating ito doon sa oras at buo.",
         
-        // grid item 2
-        efficiency: "Kahusayan at Transparency",
-        efficiencyP1: "Ang OTIF ay isang platform na maaaring maayos at may kakayahang umangkop na isama ang lahat ng partido sa maraming supply chain, na nagbibigay-daan sa pagbuo ng mga modular na serbisyo para sa iyong mga pangangailangan, pag-maximize ng iyong kahusayan, at pagbabawas ng iyong mga gastos.",
         // grid item 3
-        ontime: "Nasa Oras sa Buong",
-        ontimeP1: "Nais mo bang magkaroon ng isang platform kung saan maaari kang maghanap, maghambing, at bumili ng pinakamahusay, pinaka-maaasahang logistical booking?",
-        ontimeP2: "Ngayon meron, OTIF.",
-        ontimeP3: "OTIF : ON-TIME NA BUO",
-        ontimeP4: "Ang aming koponan ay ang iyong koponan.",
-        ontimeP5: "Ang aming teknolohiya ay ang iyong teknolohiya na gagamitin ayon sa gusto mo kapag gusto mo.",
-        ontimeP6: "Ang lakas ng negosyo mo.",
+        navigation: "Walang putol na Pag-navigate",
+        navigationP1: "Pinaglilingkuran namin ang lahat ng ruta at pinangangasiwaan ang lahat ng uri ng nabigasyon, papasok o papalabas. Ang aming mga carrier ay sapat na para sa mahusay na paglilingkod sa buong mundo.",       
+
+        // grid item 4
+        model: "Maramihang Modelo ng Negosyo",
+        modelP1: "Naghanda kami ng mga pakete para sa lahat ng uri ng modelo ng negosyo; negosyo sa negosyo, negosyo sa mamimili, at mamimili sa negosyo. Hahawakan namin ang iyong package sa alinmang paraan.",
 
         // Queries
         queries: "Kung mayroon kang anumang mga Tanong Makipag-ugnayan sa Amin",
@@ -210,27 +209,25 @@ const translate = (lang) => {
     hired9.textContent = language[lang].hired9;
     hired10.textContent = language[lang].hired10;
 
-    optimize.textContent = language[lang].optimize;
-    optimizeP1.textContent = language[lang].optimizeP1;
-    optimizeBtn.textContent = language[lang].optimizeBtn;
+    platform.textContent = language[lang].platform;
+    platformP1.textContent = language[lang].platformP1;
+    platformBtn.textContent = language[lang].platformBtn;
     
     // grid item 1
-    dataDriven.textContent = language[lang].dataDriven;
-    dataDrivenP1.textContent = language[lang].dataDrivenP1;
-    dataDrivenP2.textContent = language[lang].dataDrivenP2;
+    automation.textContent = language[lang].automation;
+    automationP1.textContent = language[lang].automationP1;
 
     // grid item 2
-    efficiency.textContent = language[lang].efficiency;
-    efficiencyP1.textContent = language[lang].efficiencyP1;
+    volume.textContent = language[lang].volume;
+    volumeP1.textContent = language[lang].volumeP1;
     
     // grid item 3
-    ontime.textContent = language[lang].ontime;
-    ontimeP1.textContent = language[lang].ontimeP1;
-    ontimeP2.textContent = language[lang].ontimeP2;
-    ontimeP3.textContent = language[lang].ontimeP3;
-    ontimeP4.textContent = language[lang].ontimeP4;
-    ontimeP5.textContent = language[lang].ontimeP5;
-    ontimeP6.textContent = language[lang].ontimeP6;
+    navigation.textContent = language[lang].navigation;
+    navigationP1.textContent = language[lang].navigationP1;
+    
+    // grid item 4
+    model.textContent = language[lang].model;
+    modelP1.textContent = language[lang].modelP1;
 
     // Queries
     queries.textContent = language[lang].queries;
