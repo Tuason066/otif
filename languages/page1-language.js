@@ -1,4 +1,4 @@
-
+/* AUTHOR: JEFFREY TUASON */
 // Language translations
 const language = {
     en: {
