@@ -329,7 +329,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <img class="img-fluid" src="./assets/PH-flag.svg" alt="Philippine flag">
                         </div>
                     </span>
-                    Tagalog
+                    Filipino
                 </button>
                 <ul class="dropdown-menu">
                     <li><a style="cursor: pointer;" data-translation data-id="en" class="fs-7 dropdown-item">English</a></li>
@@ -348,7 +348,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     English
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a style="cursor: pointer;" data-translation data-id="tl" class="fs-7 dropdown-item">Tagalog</a></li>
+                    <li><a style="cursor: pointer;" data-translation data-id="tl" class="fs-7 dropdown-item">Filipino</a></li>
                     <li><a style="cursor: pointer;" data-translation data-id="en" class="fs-7 dropdown-item">English</a></li>
                 </ul>
             `;

@@ -10825,6 +10825,31 @@ z .placeholder-lg {
   margin: 0;
 }
 
+.burger-icon__line {
+  height: 0.1rem;
+  width: 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: all 0.4s ease;
+}
+.burger-icon__line + .burger-icon__line {
+  margin-top: 0.2rem;
+}
+
+.close-burger-icon[class] .burger-icon__line:first-child {
+  transform: rotate(405deg) translateY(0.15rem);
+}
+
+.close-burger-icon[class] .burger-icon__line:nth-child(2) {
+  opacity: 0;
+  margin: 0;
+}
+
+.close-burger-icon[class] .burger-icon__line:last-child {
+  transform: rotate(-405deg) translateY(-0.15rem);
+  margin: 0;
+}
+
 .scroll-to-top {
   width: 2rem;
   position: fixed;

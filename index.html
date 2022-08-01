@@ -48,7 +48,7 @@
                                     English
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a style="cursor: pointer;" href="" data-translation data-id="tl" class="dropdown-item fs-7 dropdown-item">Tagalog</a></li>
+                                    <li><a style="cursor: pointer;" href="" data-translation data-id="tl" class="dropdown-item fs-7 dropdown-item">Filipino</a></li>
                                     <li><a style="cursor: pointer;" href="" data-translation data-id="en" class="dropdown-item fs-7 dropdown-item">English</a></li>
                                 </ul>
                             </div>
@@ -62,18 +62,19 @@
                             <a class="navbar-brand d-block" href="">
                                 <img class="brand-logo" src="./assets/white-brand.svg" alt="brand logo">
                             </a>
-    <!-- button design lack of interaction it's better to add the close button x  -->
                             <button class="d-lg-none burger-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                                </svg>
+                                <div class="burger-icon">
+                                    <div class="burger-icon__line"></div>
+                                    <div class="burger-icon__line"></div>
+                                    <div class="burger-icon__line"></div>
+                                </div>
                             </button>
     <!-- dropdown container design need to be improve-->
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mt-2 mt-lg-0 mb-2 mb-lg-0">
 
                                     <li class="nav-item dropdown px-md-3 px-md-3">
-                                        <a class="nav-link text-white d-flex justify-content-between" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a class="nav-link text-white d-flex justify-content-between align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             <span id="transDropdown1">Products</span>
                                             <span class="ps-2"><img src="./assets/arrow-down-icon.svg" alt="arrow pointing down icon"></span>
                                         </a>
@@ -85,7 +86,7 @@
                                     </li>
 
                                     <li class="nav-item dropdown px-md-3">
-                                        <a class="nav-link text-white d-flex justify-content-between" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a class="nav-link text-white d-flex justify-content-between align-items-center" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             <span id="transDropdown2">Use Cases</span>
                                             <span class="ps-2"><img src="./assets/arrow-down-icon.svg" alt="arrow pointing down icon"></span>
                                         </a>
@@ -97,7 +98,7 @@
                                     </li>
 
                                     <li class="nav-item dropdown px-md-3">
-                                        <a class="nav-link d-flex justify-content-between text-white" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a class="nav-link d-flex justify-content-between align-items-center text-white" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             <span id="transDropdown3">Resources</span>
                                             <span class="ps-2"><img src="./assets/arrow-down-icon.svg" alt="arrow pointing down icon"></span>
                                         </a>
@@ -109,7 +110,7 @@
                                     </li>
 
                                     <li class="nav-item dropdown px-md-3">
-                                        <a class="nav-link d-flex justify-content-between text-white" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a class="nav-link d-flex justify-content-between align-items-center text-white" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             <span id="transDropdown4">Company</span>
                                             <span class="ps-2"><img src="./assets/arrow-down-icon.svg" alt="arrow pointing down icon"></span>
                                         </a>
@@ -148,69 +149,71 @@
         </section>
 
         <!-- ####### GRID ITEMS ####### -->
-        <section class="py-5">
-            <!-- grid item -->
-            <article class="gap-md-5 row gx-0 justify-content-center align-items-md-center">
-                <!-- hero -->
-                <div class="col-8 col-md-4 pt-2 order-1 order-md-2  pb-5 text-center order-1 order-md-2">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img loading="lazy" class="img-fluid" src="./assets/data-driven.svg" alt="IT person facing to the computer monitor">
-                    </div>
-                </div>
-                <!-- description -->
-                <div class="col-11 col-md-5 order-2 order-md-1 text-center text-md-start">
-                    <div>
-                        <img loading="lazy" class="img-fluid" src="./assets/horizontal-line-circle-end.svg" alt="line icon">
-                    </div>
-                    <h2 id="dataDriven" class="mt-2 mb-3 text-primary">Data Driven</h2>
-                    <p id="dataDrivenP1" class="text-black mb-0">We decided to use technology in logistics to habilitate transparent, data-driven, and easy decisions for your business. Our technology is your business’ competitive advantage.</p>
-                    <p id="dataDrivenP2" class="text-black">This brings decisions into the user’s hands. Users choose to their company’s convenience the times, prices, and modalities that they need and want.</p>
-                </div>
-            </article>
-            <!-- end of grid item -->
+        <section class="py-5 row justify-content-center">
+            <div class="col-11 col-md-10">
 
-            <!-- grid item -->
-            <article class="gap-md-5 row gx-0 justify-content-center align-items-md-center">
-                <!-- hero -->
-                <div class="col-8 col-md-4 py-5 order-1 text-center">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img loading="lazy" class="img-fluid" src="./assets/manufacuring-process.svg" alt="workers packing the orders">
+                <!-- grid item -->
+                <article class="row gx-0 justify-content-center justify-content-md-between align-items-md-center">
+                    <!-- hero -->
+                    <div class="col-10 col-md-5 pt-2 order-1 order-md-2  pb-5 text-center order-1 order-md-2">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img loading="lazy" class="img-fluid" src="./assets/data-driven.svg" alt="IT person facing to the computer monitor">
+                        </div>
                     </div>
-                </div>
-                <!-- description -->
-                <div class="col-11 col-md-5 order-2 text-center text-md-start">
-                    <div>
-                        <img loading="lazy" class="img-fluid" src="./assets/horizontal-line-circle-end.svg" alt="line icon">
+                    <!-- description -->
+                    <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start">
+                        <div>
+                            <img loading="lazy" class="img-fluid" src="./assets/horizontal-line-circle-end.svg" alt="line icon">
+                        </div>
+                        <h2 id="dataDriven" class="mt-2 mb-3 text-primary">Data Driven</h2>
+                        <p id="dataDrivenP1" class="text-black mb-0">We decided to use technology in logistics to habilitate transparent, data-driven, and easy decisions for your business. Our technology is your business’ competitive advantage.</p>
+                        <p id="dataDrivenP2" class="text-black">This brings decisions into the user’s hands. Users choose to their company’s convenience the times, prices, and modalities that they need and want.</p>
                     </div>
-                    <h2 id="efficiency" class="mt-2 mb-3 text-primary">Efficiency and Transparency</h2>
-                    <p id="efficiencyP1" class="text-black">OTIF is a platform that can smoothly and flexibly integrate all parties across multiple supply chains, enabling the formation of modular services for your needs, maximizing your efficiency, and reducing your costs.</p>
-                </div>
-            </article>
-            <!-- end of grid item -->
+                </article>
+                <!-- end of grid item -->
+                <!-- grid item -->
+                <article class="row gx-0 justify-content-center justify-content-md-between align-items-md-center">
+                    <!-- hero -->
+                    <div class="col-10 col-md-5 py-5 order-1 text-center">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img loading="lazy" class="img-fluid" src="./assets/manufacuring-process.svg" alt="workers packing the orders">
+                        </div>
+                    </div>
+                    <!-- description -->
+                    <div class="col-12 col-md-6 order-2 text-center text-md-start">
+                        <div>
+                            <img loading="lazy" class="img-fluid" src="./assets/horizontal-line-circle-end.svg" alt="line icon">
+                        </div>
+                        <h2 id="efficiency" class="mt-2 mb-3 text-primary">Efficiency and Transparency</h2>
+                        <p id="efficiencyP1" class="text-black">OTIF is a platform that can smoothly and flexibly integrate all parties across multiple supply chains, enabling the formation of modular services for your needs, maximizing your efficiency, and reducing your costs.</p>
+                    </div>
+                </article>
+                <!-- end of grid item -->
+                <!-- grid item -->
+                <article class="row gx-0 justify-content-center justify-content-md-between align-items-md-center">
+                    <!-- hero -->
+                    <div class="col-10 col-md-5 pt-2 pb-5 text-center order-1 order-md-2">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img loading="lazy" class="img-fluid" src="./assets/delivered.svg" alt="delivery man handed the item to the customer">
+                        </div>
+                    </div>
+                    <!-- description -->
+                    <div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start">
+                        <div>
+                            <img loading="lazy" class="img-fluid" src="./assets/horizontal-line-circle-end.svg" alt="line icon">
+                        </div>
+                        <h2 id="ontime" class="mt-2 mb-3 text-primary">On-Time In Full</h2>
+                        <p id="ontimeP1" class="text-black mb-0">Do you ever wish there was a platform where you could search, compare, and buy the best, most reliable logistical bookings?</p>
+                        <p id="ontimeP2" class="text-black mb-0">Now there is, OTIF.</p>
+                        <p id="ontimeP3" class="text-black mb-0">OTIF: ON-TIME IN FULL</p>
+                        <p id="ontimeP4" class="text-black mb-0">Our team is your team.</p>
+                        <p id="ontimeP5" class="text-black mb-0">Our technology is your technology to use as you please when you please.</p>
+                        <p id="ontimeP6" class="text-black">The power of your business.</p>
+                    </div>
+                </article>
+                <!-- end of grid item -->
 
-            <!-- grid item -->
-            <article class="gap-md-5 row gx-0 justify-content-center align-items-md-center">
-                <!-- hero -->
-                <div class="col-8 col-md-4 pt-2 pb-5 text-center order-1 order-md-2">
-                    <div class="d-flex justify-content-center align-items-center">
-                        <img loading="lazy" class="img-fluid" src="./assets/delivered.svg" alt="delivery man handed the item to the customer">
-                    </div>
-                </div>
-                <!-- description -->
-                <div class="col-11 col-md-5 order-2 order-md-1 text-center text-md-start">
-                    <div>
-                        <img loading="lazy" class="img-fluid" src="./assets/horizontal-line-circle-end.svg" alt="line icon">
-                    </div>
-                    <h2 id="ontime" class="mt-2 mb-3 text-primary">On-Time In Full</h2>
-                    <p id="ontimeP1" class="text-black mb-0">Do you ever wish there was a platform where you could search, compare, and buy the best, most reliable logistical bookings?</p>
-                    <p id="ontimeP2" class="text-black mb-0">Now there is, OTIF.</p>
-                    <p id="ontimeP3" class="text-black mb-0">OTIF: ON-TIME IN FULL</p>
-                    <p id="ontimeP4" class="text-black mb-0">Our team is your team.</p>
-                    <p id="ontimeP5" class="text-black mb-0">Our technology is your technology to use as you please when you please.</p>
-                    <p id="ontimeP6" class="text-black">The power of your business.</p>
-                </div>
-            </article>
-            <!-- end of grid item -->
+            </div>
         </section>
 
         <!-- ####### QUERIES ####### -->

@@ -6,7 +6,8 @@ window.addEventListener('load', () => spinner.classList.add('d-none'));
 /* ################### NAVBAR ################### */
 const navbar = document.querySelector('.navbar-container');
 const navList = document.querySelector('#navbarSupportedContent');
-const navBtn = document.querySelector('.burger-btn');
+const navDropdowns = document.querySelectorAll('.navbar-collapse .nav-link');
+const burgerBtn = document.querySelector('.burger-btn');
 const backToTop = document.querySelector('#scroll-to-top');
 
 window.addEventListener('scroll', () => {
@@ -20,15 +21,23 @@ window.addEventListener('scroll', () => {
     } else {
         navbar.classList.remove('fixed-top', 'col-12', 'shadow', 'w-100');
         navbar.removeAttribute('style');
-    }
+    };
 
     /* nav button */
-    navList.classList.contains('show') && navBtn.click();
+    navList.classList.contains('show') && burgerBtn.click();
+    navDropdowns.forEach(dropdown => dropdown.classList.contains('show') && dropdown.click());
 
     // back to top
     scrollHeight > 500 ? backToTop.classList.remove('d-none') : backToTop.classList.add('d-none');
-})
+});
 
+burgerBtn.addEventListener('click', () => {
+    if(burgerBtn.getAttribute('aria-expanded').toString() === 'false') {
+        burgerBtn.classList.remove('close-burger-icon');
+    } else {
+        burgerBtn.classList.add('close-burger-icon');
+    };
+});
 
 /* ################### FORM ################### */
 const form = document.querySelector('form');
@@ -37,7 +46,6 @@ form.addEventListener('submit', e => {
     const input = e.currentTarget.querySelector('input');
     input.value && window.location.replace(`${window.location.origin}${window.location.pathname}#`);
     input.value = '';
-    
 });
 
 /* ################### DATE ################### */
