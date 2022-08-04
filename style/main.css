@@ -10855,6 +10855,7 @@ z .placeholder-lg {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
+  z-index: 999;
   animation: scrollToTop 4s infinite;
 }
 
